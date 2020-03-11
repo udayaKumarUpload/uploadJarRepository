@@ -4,12 +4,19 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
     
 <repositories>
-		<repository>
+    <repository>
     <id>project-sonataupload</id>
     <name>Project Sonataupload</name>
     <url>https://github.com/udayaKumarUpload/uploadJarRepository/blob/master/</url>
     </repository>  
 </repositories>      
      
-      
+<dependencies>
+  <dependency>
+  <groupId>sonataHotelData-id</groupId>
+  <artifactId>sonataHotelData-id</artifactId>
+  <version>0.0.1</version>
+  </dependency>   
+</dependencies>
+	
 </project>  
